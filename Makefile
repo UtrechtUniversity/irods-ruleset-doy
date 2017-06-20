@@ -25,7 +25,7 @@ RULE_FILES ?= $(shell find . -type f -iname '*.r')
 
 # Output files.
 
-RULESET_NAME ?= rules-i-lab.re
+RULESET_NAME ?= rules-doy.re
 RULESET_FILE := $(RULESET_NAME)
 
 INSTALL_DIR  ?= ..
