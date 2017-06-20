@@ -10,7 +10,7 @@ pep_resource_modified_post(*out) {
   on(uuinlist($pluginInstanceName, UUPRIMARYRESOURCES)) {
     *pluginInstanceName = $pluginInstanceName;
     *KVPairs = $KVPairs;
-    uuReplicateAsynchronously(*KVPairs.logical_path, *pluginInstanceName, UUREPLICATIONRESOURCE);
+#    uuReplicateAsynchronously(*KVPairs.logical_path, *pluginInstanceName, UUREPLICATIONRESOURCE);
     # The rules on metadata are run synchronously and could fail. Log errors, but continue with revisions.
     *err = errormsg(uuResourceModifiedPostResearch(*pluginInstanceName, *KVPairs), *msg);
     if (*err < 0) {
