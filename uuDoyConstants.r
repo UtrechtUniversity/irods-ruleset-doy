@@ -3,7 +3,7 @@
 # \license GPLv3, see LICENSE
 
 # \constant UUPRIMARYRESOURCES
-UUPRIMARYRESOURCES = list("irodsResc");
+UUPRIMARYRESOURCES = list("irodsResc","irodsResc2");
 
 # \constant UUREPLICATIONRESOURCE
 UUREPLICATIONRESOURCE = "irodsRescRepl";
